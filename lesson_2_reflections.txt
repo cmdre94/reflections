@@ -23,4 +23,19 @@ nothing added to commit but untracked files present (use "git add" to track)
 C:\Users\ClifandMo\Desktop\Version_control\reflections [master +1 ~0 -0 !]>
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area is temporary.  The working directory is permanent unless it's deleted.
+git diff: when entered with no arguements compares the working directory and the staging area
+
+git diff --staged: with no arguments compares the staging area and the most recent commit in the repository
+
+git reomve --hard: with no arguments discards changes in the staging area and the working directory
+
+Commands:
+git log
+git clone
+git checkout
+git diff
+git status
+git add
+git commit
+git diff --staged
+git remove --hard
