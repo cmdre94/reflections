@@ -22,3 +22,5 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 C:\Users\ClifandMo\Desktop\Version_control\reflections [master +1 ~0 -0 !]>
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is temporary.  The working directory is permanent unless it's deleted.
