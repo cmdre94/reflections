@@ -39,3 +39,24 @@ git add
 git commit
 git diff --staged
 git remove --hard
+git branch (with no arguements):
+git show
+git branch
+delete branch
+git branch -d (branch name):  deletes the branch but not the commits
+git log --graph --oneline
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Only add what you want to commit to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You may want to make a version of the file in a different language. 
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Maybe this will make more sense the further I get into the course.  right now this seems like an overcomplicated way to do someting that is not that complicated.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto merge is good if there are no conflicts.  If there are conflicts, you have to fix them.  With manual merge, you could miss the conflicts and it takes longer than auto.  Either way, if there is a conflict you have to fix it.
